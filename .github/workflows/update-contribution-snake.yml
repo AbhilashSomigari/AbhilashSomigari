@@ -3,9 +3,14 @@ name: Update Contribution Snake
 on:
   schedule:
     - cron: "37 0 * * *"
-      timezone: "America/New_York"
 
   workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-contribution-snake.yml"
 
 permissions:
   contents: write
@@ -15,7 +20,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  generate-snake:
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -23,18 +28,18 @@ jobs:
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: AbhilashSomigari
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%237C3AED&color_dots=%23EBEDF0,%23DDD6FE,%23A78BFA,%237C3AED,%234C1D95
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23A78BFA&color_dots=%230D1117,%23312E81,%234C1D95,%236D28D9,%23C4B5FD
 
-      - name: Publish snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Publish snake SVGs
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          build_dir: dist
-          branch: output
-          commit_message: "chore: update contribution snake"
-          committer: "Abhilash Somigari 197832085+AbhilashSomigari@users.noreply.github.com"
-          author: "Abhilash Somigari 197832085+AbhilashSomigari@users.noreply.github.com"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
+          user_name: Abhilash Somigari
+          user_email: 197832085+AbhilashSomigari@users.noreply.github.com
+          full_commit_message: "chore: update contribution snake"
