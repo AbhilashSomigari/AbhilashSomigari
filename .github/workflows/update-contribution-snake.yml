@@ -2,15 +2,9 @@ name: Update Contribution Snake
 
 on:
   schedule:
-    - cron: "37 0 * * *"
+    - cron: "37 5 * * *"
 
   workflow_dispatch:
-
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/update-contribution-snake.yml"
 
 permissions:
   contents: write
@@ -39,7 +33,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
           publish_dir: ./dist
-          force_orphan: true
           user_name: Abhilash Somigari
           user_email: 197832085+AbhilashSomigari@users.noreply.github.com
           full_commit_message: "chore: update contribution snake"
