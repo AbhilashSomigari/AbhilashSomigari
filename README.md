@@ -425,23 +425,21 @@ Delivered structured data-structures and algorithms instruction while mentoring 
 
 <div align="center">
 
-<a href="https://github.com/AbhilashSomigari">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/AbhilashSomigari/AbhilashSomigari/output/github-contribution-grid-snake-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/AbhilashSomigari/AbhilashSomigari/output/github-contribution-grid-snake.svg"
-    />
-    <img
-      width="100%"
-      src="https://raw.githubusercontent.com/AbhilashSomigari/AbhilashSomigari/output/github-contribution-grid-snake-dark.svg"
-      alt="Abhilash Somigari Contribution Snake"
-    />
-  </picture>
-</a>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/AbhilashSomigari/AbhilashSomigari/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/AbhilashSomigari/AbhilashSomigari/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    width="100%"
+    src="https://raw.githubusercontent.com/AbhilashSomigari/AbhilashSomigari/output/github-contribution-grid-snake-dark.svg"
+    alt="Abhilash Somigari Contribution Snake"
+  />
+</picture>
 
 </div>
 
