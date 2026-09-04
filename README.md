@@ -190,7 +190,7 @@ The system segments reference, cut, and uncut anatomical regions from surgical v
 
 </details>
 
-<br/>
+<!-- <br/>
 
 <details>
 <summary><strong>BrainNet — Explainable Hemorrhage Detection</strong></summary>
@@ -210,7 +210,7 @@ A deep-learning application for detecting intracranial hemorrhage patterns in CT
 
 BrainNet combines transfer learning and visual explainability to move beyond black-box prediction. The system generates Grad-CAM visualizations that highlight the image regions contributing most strongly to each classification result.
 
-</details>
+</details> -->
 
 <br/>
 
@@ -280,7 +280,7 @@ Engineer applied AI systems spanning computer vision, explainable AI, full-stack
 
 <br/>
 
-### Instructor & Mentor · Smart Interviews
+<!-- ### Instructor & Mentor · Smart Interviews
 
 `January 2024 — May 2024`
 
@@ -297,7 +297,7 @@ Delivered structured data-structures and algorithms instruction while mentoring 
 <img src="https://img.shields.io/badge/Mentorship-6D28D9?style=flat-square" alt="Mentorship"/>
 <img src="https://img.shields.io/badge/Technical%20Communication-7C3AED?style=flat-square" alt="Technical Communication"/>
 
----
+--- -->
 
 ## Achievements
 
