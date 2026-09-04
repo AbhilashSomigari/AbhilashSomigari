@@ -23,17 +23,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Download activity graph
-        run: |
-          mkdir -p assets
-
-          curl \
-            --fail \
-            --location \
-            --retry 3 \
-            --retry-delay 5 \
-            "https://github-readme-activity-graph.vercel.app/graph?username=AbhilashSomigari&bg_color=0D1117&color=A78BFA&line=7C3AED&point=C4B5FD&area=true&area_color=4C1D95&hide_border=true&custom_title=Engineering%20Contribution%20Activity" \
-            --output assets/github-activity-graph.svg
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: AbhilashSomigari
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output_path: assets/github-activity-graph.svg
+          options: bg_color=0D1117&color=A78BFA&line=7C3AED&point=C4B5FD&area=true&area_color=4C1D95&hide_border=true&custom_title=Engineering%20Contribution%20Activity
 
       - name: Verify generated SVG
         run: |
