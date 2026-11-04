@@ -10,7 +10,7 @@
 
 ## About
 
-M.S. Computer Science student at West Virginia University (GPA 3.87, graduating Dec 2026). I build LLM agents with evaluation gates, explainable computer-vision pipelines, and ROS 2 control nodes for F1TENTH cars.
+M.S. Computer Science student at West Virginia University (graduating Dec 2026). I build LLM agents with evaluation gates, explainable computer-vision pipelines, and ROS 2 control nodes for F1TENTH cars.
 
 **Open to:** Software Engineering · AI/ML Engineering · Applied AI roles.
 
