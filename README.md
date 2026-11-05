@@ -51,7 +51,7 @@ M.S. Computer Science student at West Virginia University (graduating Dec 2026).
 
 - [Oracle Agentic AI Certified Foundations Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=1661EBC4F263E80EBE1FD8C1FD7E4E5256B262640FCCF7CCF8538FAAD9B6838C) (2026)
 - [IBM RAG and Agentic AI Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/FNK3SB94JT4C) (2025)
-- [Smart Interviews Certified Smart Coder](https://smartinterviews.in/certificate/07f6d372)
+- [Smart Interviews Certified Smart Coder](https://smartinterviews.in/certificate/07f6d372) (2023)
 
 ## Skills
 
